@@ -1,11 +1,11 @@
 # midterm_project
 
-Title: 
+## Title: 
 Assessing Toronto’s Winter Services for People Experiencing Homelessness
 
 
 
-Summary:
+### Summary:
 We analyzed hypothermic risk factors and historical weather data in Toronto to assess the viability of a recent proposal – that Warming Centres for individuals experiencing homelessness should be opened at temperatures below -5°C, rather than the current threshold of -15°C.
 
 Our findings suggest that an adjustment to the threshold is warranted. The current threshold provides relief on only 5% of days with increased hypothermic risk. 
@@ -19,7 +19,7 @@ The new threshold should combine a temperature threshold and a precipitation thr
 
 
 
-Inquiry Explanation:
+### Inquiry Explanation:
 Preparing for winter weather is a critical aspect of budget planning and resource allocation for many public and private organizations. 
 
 As temperatures decrease, conditions become increasingly life-threatening for people experiencing homelessness (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6765826/). One study suggests the odds of hypothermia increase 1.64-fold for every 5°C drop in temperature and 1.1-fold for each millimetre of precipitation.
@@ -30,7 +30,7 @@ We look at historical averages and recent trends in Toronto winter weather to vi
 
 
 
-Files:
+### Files:
 'current_cleaned_canadian_climate_data.csv' contains daily Temperature, Precipitation, and Hypothermic Risk Factor data for 13 Canadian cities spanning from 1940-2019.
 
 'midterm_EDA.ipynb' contains certain analyses and data transformations used in performing EDA.
@@ -41,14 +41,14 @@ Files:
 
 
 
-Data:
+### Data:
 Our data set included daily temperature and precipitation records for 13 cities across Canada, available at https://www.kaggle.com/datasets/aturner374/eighty-years-of-canadian-climate-data.
 
 Figures regarding estimated hypothermia risk reference a study conducted on hypothermic events affecting unhoused people in Toronto – “Cold Weather Conditions and Risk of Hypothermia Among People Experiencing Homelessness: Implications for Prevention Strategies”, published in the International Journal of Environmental Research and Public Health https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6765826/.
 
 
 
-Presentation Points:
+### Presentation Points:
 [Toronto Temperature by Date] is the distribution of Toronto’s weather
 -	[Filter 1] is the number of days below -5°C
 o	At a -5°C threshold, we expect warming centres to be open roughly 50 days per year, covering roughly 50% of days with increased Hypothermia Risk Factors.
@@ -61,7 +61,7 @@ We can see from this that a threshold of -15°C covers only the most extreme wea
 
 
 
-Conclusions:
+### Conclusions:
 A threshold of -15°C for the opening of warming centres fails to effectively mitigate the risks faced by Toronto’s unhoused population. 
 
 While decreasing temperatures do correlate with increasing risk of hypothermia, increasing temperatures correlate with higher levels of precipitation. This causes the highest concentration of hypothermic risk events to occur at milder winter temperatures.
